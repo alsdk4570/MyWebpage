@@ -14,9 +14,9 @@ outputs:
   home: [HTML, RSS, JSON]
 
 params:
-  author: Example Author
-  authorInitials: EA
-  role: Software Engineer
+  author: 임민아
+  authorInitials: IMA
+  role: 대학생
   tagline: Field-tested engineering notes
   description: A demonstration site for the Stacknote Hugo theme.
   homeEyebrow: FIELD NOTES · ENGINEERING
