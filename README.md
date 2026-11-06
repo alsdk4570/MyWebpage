@@ -49,3 +49,10 @@ main 브랜치에 push하면 GitHub Actions가 위 도구를 설치하고 `pytho
 - 오늘보다 뒤 날짜(배포 서버 기준 UTC)의 글은 사이트에 나타나지 않습니다.
 - 태그는 같은 이름이 2개 이상의 글에 붙어야 화면에 나타납니다.
 
+
+## 출처와 이용 조건
+
+- 테마: [Stacknote](https://github.com/myimilo/hugo-theme-stacknote), 제작 Long Wang, MIT License (`site/themes/template/LICENSE`)
+- 사이트 생성 도구: [Hugo](https://gohugo.io/)
+- 배포 준비 스크립트(`.github/pages_build.py`): 수업에서 제공받은 도구로 생성
+- 글, 설정, 문구 수정: 직접 작성 (AI 도움 범위는 제출 보고서에 기록)
