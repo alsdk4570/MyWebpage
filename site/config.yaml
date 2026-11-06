@@ -42,16 +42,16 @@ params:
 
 menu:
   main:
-    - name: Archive
+    - name: 활동 개요
       url: /archives/
       weight: 10
-    - name: Search
+    - name: 수행 과정
       url: /search/
       weight: 20
-    - name: Tags
+    - name: 결과
       url: /tags/
       weight: 30
-    - name: About
+    - name: 성찰
       url: /about/
       weight: 40
 
