@@ -17,11 +17,11 @@ params:
   author: 임민아
   authorInitials: IMA
   role: 대학생
-  tagline: Field-tested engineering notes
-  description: A demonstration site for the Stacknote Hugo theme.
-  homeEyebrow: FIELD NOTES · ENGINEERING
-  homeTitle: Notes from building real systems
-  homeIntro: Practical lessons, trade-offs, and reproducible technical work.
+  tagline: 개인 포트폴리오 제작 과정 기록
+  description: 제가 배우고 만든 것을 기록하는 개인 포트폴리오 사이트입니다.
+  homeEyebrow: PORTFOLIO · CSAI
+  homeTitle: 학습하고 활동한 것을 기록합니다.
+  homeIntro: 컴퓨터인공지능학부인 제가 직접 경험해 본 학습들과 활동들을 소개합니다.
   aboutIntro: I write about systems that have survived contact with production.
   mainSection: articles
   authorPage: /about/
