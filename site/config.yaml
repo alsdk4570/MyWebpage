@@ -28,15 +28,15 @@ params:
   showToc: true
   showTopics: true
   showAbout: true
-  showNewsletter: true
+  showNewsletter: false
   minTagPostsToIndex: 2
   themeColor: "#FAFAF7"
   defaultSocialImage: images/social-card.png
   socialLinks:
     - name: github
-      url: https://github.com/myimilo/hugo-theme-stacknote
+      url: https://github.com/alsdk4570
     - name: email
-      url: mailto:hello@example.com
+      url: alsdk4570@jbnu.ac.kr
     - name: rss
       url: /index.xml
 
