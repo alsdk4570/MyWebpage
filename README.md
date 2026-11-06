@@ -25,3 +25,20 @@ Hugo는 반드시 extended 버전이어야 합니다. 설치는 [Hugo 공식 설
 
 main 브랜치에 push하면 GitHub Actions가 위 도구를 설치하고 `python .github/pages_build.py --build`로 사이트를 빌드해 배포합니다. 결과는 저장소의 Actions 탭에서 확인합니다.
 
+
+## 수정하고 다시 배포하는 방법
+
+1. 아래 표의 파일을 수정하고 저장합니다.
+2. `git add`, `git commit`, `git push`로 main에 올립니다.
+3. 저장소의 Actions 탭에서 실행이 초록 체크(성공)인지 확인합니다.
+4. 공개 주소를 `Ctrl+F5`로 새로고침해 바뀐 화면을 확인합니다.
+
+| 바꿀 내용 | 파일 |
+|---|---|
+| 사이트 제목, 소개 문구, 메뉴, 링크 | `site/config.yaml` |
+| 글 | `site/content/articles/*.md` |
+| 소개 페이지 | `site/content/about.md` |
+| 화면의 고정 문구 | `site/themes/template/i18n/en.yaml` |
+| 푸터와 화면 구조 | `site/themes/template/layouts/` |
+| 배포 설정 (수정하지 않음) | `.github/` |
+
