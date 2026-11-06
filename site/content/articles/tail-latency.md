@@ -1,29 +1,18 @@
 ---
-title: "Measure the Tail, Not Just the Average"
-date: 2026-08-03
-description: "Average latency can improve while the users with the worst experience wait even longer."
-tags: [Performance, Observability]
+title: "산출물과 결과 설명"
+date: 2026-11-05
+description: "만든 결과물과 직접 확인한 결과를 설명합니다."
+tags: [포트폴리오, Github]
 ---
 
-An average compresses a distribution into one comfortable number. Production latency is rarely comfortable or evenly distributed.
+## 산출물
 
-Suppose 99 requests finish in 40 milliseconds and one request takes four seconds. The average is about 80 milliseconds. That number describes almost nobody: most users saw half of it, while the unlucky user waited fifty times longer.
+- 공개 사이트: https://alsdk4570.github.io/MyWebpage/
+- Github 주소: https://github.com/alsdk4570/MyWebpage
 
-## Keep the distribution
+## 결과 설명
 
-Track at least a few percentiles and request volume together:
+- 테마의 내용들을 저에 관한 내용들로 수정하였습니다.
+- main에 push하면 Github Actions가 자동으로 빌드하고 배포합니다.
+- 중간중간 오류와 실수로 인해 빌드를 실패한 적이 있었고, 오류 메시지로 원인을 찾아 수정한 뒤 정상적으로 동작하는지 확인하였습니다.
 
-| Metric | Value |
-|---|---:|
-| P50 | 40 ms |
-| P95 | 58 ms |
-| P99 | 4.0 s |
-| Requests | 100 |
-
-Percentiles also need enough samples. A P99 calculated from a tiny window is mostly a story about one request, so retain histograms and compare equivalent traffic windows.
-
-## Find the population behind the tail
-
-Split the slow requests by endpoint, region, payload size, cache state, dependency, and retry count. Tail latency often belongs to a specific population that disappears when everything is aggregated.
-
-Optimizing the average rewards the common path. Reliability work begins when you ask who is still waiting.
