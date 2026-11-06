@@ -23,7 +23,7 @@ params:
   homeEyebrow: PORTFOLIO · CSAI
   homeTitle: 학습하고 활동한 것을 기록합니다.
   homeIntro: 컴퓨터인공지능학부인 제가 직접 경험해 본 학습들과 활동들을 소개합니다.
-  aboutIntro: I write about systems that have survived contact with production.
+  aboutIntro: 관심 분야 및 앞으로의 계획을 소개합니다.
   mainSection: articles
   authorPage: /about/
   showToc: true
