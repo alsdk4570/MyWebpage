@@ -54,19 +54,19 @@
 - id: backHome
   translation: Back to home
 - id: searchLabel
-  translation: Search articles
+  translation: 글 검색
 - id: searchPlaceholder
-  translation: Search by title, topic, or article text…
+  translation: 제목, 주제, 본문으록 검색
 - id: searchLoading
-  translation: Loading the search index…
+  translation: 검색 목록을 불러오는 중입니다.
 - id: searchEmpty
-  translation: Start typing to search the archive.
+  translation: 검색어를 입력해 주세요.
 - id: searchNoResults
-  translation: No articles matched your search.
+  translation: 검색 결과가 없습니다.
 - id: searchError
-  translation: The search index could not be loaded.
+  translation: 검색 목록을 불러오지 못했습니다.
 - id: searchRetry
-  translation: Try again
+  translation: 다시 시도
 - id: noArticles
   translation: No articles have been published yet.
 - id: noTopics
