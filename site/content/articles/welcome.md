@@ -1,41 +1,24 @@
 ---
-title: "Welcome to Stacknote"
-date: 2026-08-24
-description: "A demonstration of Stacknote's article typography, navigation, search, and editorial layout."
-tags: [Hugo, Writing]
-cover:
-  image: images/stacknote-cover.png
-  alt: "Layered editorial cards arranged on a warm paper background"
----
+title: "Welcome to Mina's Portfolio"
+date: 2026-11-07
+description: "제가 관심을 갖는 분야와 선택 이유 및 학습 목표를 소개합니다.": [Hugo, Writing]
 
-Stacknote is designed for technical writing that values clarity and character. It gives a personal engineering blog a recognizable visual voice without turning every page into a product landing page.
+전북대학교에 재학 중인 컴퓨터인공지능학부 25학번 대학생입니다. 저의 관심 분야와 학습 목표를 소개하려 합니다.
 
-## A complete reading experience
+## 관심 분야
 
-The reading page keeps the article at the center while still providing a table of contents, highlighted code, responsive tables, related articles, and strong keyboard focus states.
+> 저의 현재 과인 컴퓨터인공지능학부에서 배우고 있는 코딩과 앱 개발에 관심이 있습니다.
+이 분야에 관심을 갖게 된 이유는 코드를 입력했을 때 즉각적으로 실행되는 것에 재미를 느끼게 되었습니다. 또한, 이렇게 직흥적으로 만든 결과물을 사람들이 바로 사용할 수 있다는 점이 매력적으로 다가와 앱 개발에도 관심을 갖게 되었습니다.
 
-```go
-func main() {
-    fmt.Println("field-tested notes")
-}
-```
 
-The same design carries through the homepage, archives, tags, search results, and author page. Local covers are processed by Hugo into responsive WebP variants, while articles without images keep a deliberate text-first layout.
+## 학습 목표
 
-> A technical theme should make careful writing easier to read, not compete with it.
+사이트와 같은 웹이 아닌 간단한 어플을 직접 기획해 보는 프로젝트를 완성하는 것입니다.
 
-## Built for real publishing
 
-Articles work with or without cover images, descriptions, or extensive metadata. Sensible fallbacks keep older posts readable, while richer front matter improves cards and social previews when it is available.
+## 실행 계획
 
-| Content feature | What Stacknote does |
-|---|---|
-| Local cover | Generates responsive WebP variants |
-| Remote cover | Renders the original URL directly |
-| Description | Reuses it for cards, search, and metadata |
-| Tags | Powers topic browsing and related posts |
-| Headings | Builds an optional table of contents |
+1. 어플 만드는 방법을 검색해 보고 공식 튜토리얼을 따라 간단하게 연습합니다.
+2. 연습하면서 만든 연습 어플 1개를 GitHub에 올리며 복습합니다.
+3. 평소에 필요하다고 생각했던 어플을 기획하여 실제로 구현해 보고 제대로 동작할 경우에 친구들에게 배포합니다.
 
-## A theme that stays out of the repository
-
-Every template can be overridden from the site project. You can keep Stacknote as a Git submodule, customize only the pieces that are genuinely yours, and still pull later theme updates cleanly.
