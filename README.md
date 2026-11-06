@@ -4,3 +4,18 @@
 
 - 사이트: https://alsdk4570.github.io/MyWebpage/
 - 저장소: https://github.com/alsdk4570/MyWebpage
+
+
+## 필요한 도구와 버전
+
+배포용 워크플로(`.github/workflows/hugo-pages.yml`)에 지정된 버전입니다.
+
+| 도구 | 버전 |
+|---|---|
+| Hugo (extended) | 0.167.0 (테마 요구: 0.160.0 이상) |
+| Dart Sass | 1.105.0 |
+| Go | 1.27.1 |
+| Node.js | 24 |
+| Python | 3.12 |
+
+Hugo는 반드시 extended 버전이어야 합니다. 설치는 [Hugo 공식 설치 안내](https://gohugo.io/installation/)를 따릅니다.
