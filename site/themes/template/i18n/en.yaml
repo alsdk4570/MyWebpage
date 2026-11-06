@@ -34,21 +34,21 @@
 - id: articleFallback
   translation: Article
 - id: site
-  translation: SECTION
+  translation: 메뉴
 - id: follow
-  translation: FOLLOW
+  translation: 연락처
 - id: socialLinks
   translation: Social links
 - id: github
   translation: GitHub
 - id: rss
-  translation: RSS
+  translation: RSS 구독
 - id: email
   translation: Email
 - id: poweredBy
-  translation: "Powered by [Hugo](https://gohugo.io/) and the [Stacknote](https://github.com/myimilo/hugo-theme-stacknote) theme"
+  translation: "[Hugo](https://gohugo.io/) 와 [Stacknote](https://github.com/myimilo/hugo-theme-stacknote) 테마로 제작"
 - id: allRightsReserved
-  translation: All rights reserved
+  translation: 모든 권리 보유
 - id: pageNotFound
   translation: This page wandered off, but the articles are still here.
 - id: backHome
