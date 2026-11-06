@@ -9,15 +9,15 @@
 - id: search
   translation: 검색
 - id: openMenu
-  translation: Open menu
+  translation: 메뉴 열기
 - id: closeMenu
-  translation: Close menu
+  translation: 메뉴 닫기
 - id: primaryNavigation
-  translation: Primary navigation
+  translation: 주요 메뉴
 - id: articleNavigation
   translation: 글 이동
 - id: skipToContent
-  translation: Skip to content
+  translation: 본문으로 건너뛰기
 - id: latestArticles
   translation: 활동 기록
 - id: viewAll
@@ -38,7 +38,7 @@
 - id: follow
   translation: 연락처
 - id: socialLinks
-  translation: Social links
+  translation: 소셜 링크
 - id: github
   translation: GitHub
 - id: rss
