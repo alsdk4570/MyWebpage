@@ -1,7 +1,7 @@
 baseURL: https://alsdk4570.github.io/MyWebpage/
 title: Mina's Portfolio
 
-locale: en-US
+locale: ko-KR
 enableRobotsTXT: true
 
 pagination:
