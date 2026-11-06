@@ -22,7 +22,7 @@ params:
   homeEyebrow: PORTFOLIO · CSAI
   homeTitle: 학습하고 활동한 것을 기록합니다.
   homeIntro: 컴퓨터인공지능학부인 제가 직접 경험해 본 학습들과 활동들을 소개합니다.
-  aboutIntro: 관심 분야 및 앞으로의 계획을 소개합니다.
+  aboutIntro: 맺음말로 마무리합니다.
   mainSection: articles
   authorPage: /about/
   showToc: true
@@ -52,7 +52,7 @@ menu:
       url: /articles/tail-latency/
       weight: 30
     - name: 성찰
-      url: /about/
+      url: /articles/publishing-checklist/
       weight: 40
 
 related:
