@@ -1,6 +1,6 @@
 ---
 title: "수행 과정: 어떻게 만들었는지"
-date: 2026-11-03
+date: 2026-11-02
 description: "사이트를 만드는 단계와 선택 이유를 설명합니다."
 tags: [Hugo, Github]
 ---
