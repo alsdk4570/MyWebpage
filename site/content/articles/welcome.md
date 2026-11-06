@@ -1,7 +1,7 @@
 ---
 title: "Welcome to Mina's Portfolio"
 date: 2026-11-07
-description: "제가 관심을 갖는 분야와 선택 이유 및 학습 목표를 소개합니다.": [Hugo, Writing]
+description: "제가 관심을 갖는 분야와 선택 이유 및 학습 목표를 소개합니다."
 tags: [소개, 학습 목표]
 ---
 
