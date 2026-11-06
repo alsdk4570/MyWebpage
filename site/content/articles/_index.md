@@ -1,3 +1,3 @@
 ---
-title: Articles
+title: 활동 기록
 ---
