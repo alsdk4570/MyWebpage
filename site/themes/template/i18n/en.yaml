@@ -34,9 +34,9 @@
 - id: articleFallback
   translation: Article
 - id: site
-  translation: Site
+  translation: SECTION
 - id: follow
-  translation: Follow
+  translation: FOLLOW
 - id: socialLinks
   translation: Social links
 - id: github
