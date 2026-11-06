@@ -1,24 +1,23 @@
 ---
-title: "A Small Checklist for Shipping Technical Notes"
-date: 2026-07-27
-description: "A repeatable publishing pass for links, code, metadata, accessibility, and the final production build."
-tags: [Hugo, Writing]
+title: "적용 사례 및 학습 결과와 개선 방향"
+date: 2026-11-06
+description: "활동에서 사용한 기술과 도구 및 결과, 개선 방향들을 성찰하고 정리합니다."
+tags: [Hugo, 학습 목표]
 ---
 
-A publishing checklist should be short enough to use every time. Mine asks five questions.
+## 기술과 도구 사용 사례
 
-1. Does the opening state the problem without requiring a page of background?
-2. Do commands and code samples still run?
-3. Do external claims link to the original source?
-4. Does every informative image have useful alternative text?
-5. Does the production build complete without warnings?
+- GitHub: 사이트 소스를 저장소로 관리하며, 수정할 때마다 commit과 push로 변경 이력을 남겼습니다.
+- Hugo: 설정 파일들을 수정해 사이트의 제목, 메뉴, 소개 문구, 글을 구성했습니다.
 
-For a Hugo site, the final check can remain pleasantly boring:
 
-```bash
-hugo --panicOnWarning --minify
-```
+## 학습 결과
 
-Preview the generated site at both narrow and wide viewport sizes. Long titles, tables, code blocks, and navigation labels expose layout assumptions faster than placeholder text ever will.
+- 글 파일의 형식 오류가 빌드 전체를 막는다. > 글 맨 위의 설정 부분에 `---`가 빠지고 문법이 틀리자 Actions가 실패해서 갱신되지 않았습니다. 로그에 나온 파일 이름과 줄 번호를 보고 원인을 찾아 고쳤습니다.
+- 미래 날짜의 글은 빌드에서 제외된다. 소개 글의 날짜를 오늘 날짜로 적었더니 글이 사이트에 나타나지 않았습니다.
+- 메뉴는 이름과 연결 주소가 함께 맞아야 한다. 메뉴 이름만 한글로 바꾸고 주소는 그대로 두었더니 이름과 다른 화면이 열렸습니다.
 
-The purpose of the checklist is not ceremony. It is to move recurring mistakes out of memory and into a process that remains reliable on a busy day.
+
+## 다음 개선 방향
+
+다음 활동에서는 화면 일부의 템플릿을 직접 수정하고 수정 전후 화면을 사이트에 기록할 예정입니다. 또한 관심 분야에서 언급했듯이 앱 개발 학습 목표를 진행하면서 만든 결과물을 이 사이트에 글로 추가해 포트폴리오를 확장하고 싶습니다.
