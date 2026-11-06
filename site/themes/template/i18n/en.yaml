@@ -1,13 +1,13 @@
 - id: articles
-  translation: Articles
+  translation: 활동 기록
 - id: archive
-  translation: Archive
+  translation: 활동 목록
 - id: tags
-  translation: Tags
+  translation: 주제
 - id: about
-  translation: About
+  translation: 소개
 - id: search
-  translation: Search
+  translation: 검색
 - id: openMenu
   translation: Open menu
 - id: closeMenu
@@ -21,16 +21,16 @@
 - id: latestArticles
   translation: 활동 기록
 - id: viewAll
-  translation: View all
+  translation: 전체 보기
 - id: browseTopics
-  translation: Browse by topic
+  translation: 주제별로 보기
 - id: featured
-  translation: Featured
+  translation: 대표 글
 - id: continueReading
-  translation: Continue reading
+  translation: 더 읽기
 - id: minRead
-  one: "{{ .Count }} min read"
-  other: "{{ .Count }} min read"
+  one: "{{ .Count }} 분 읽기"
+  other: "{{ .Count }} 분 읽기"
 - id: articleFallback
   translation: Article
 - id: site
