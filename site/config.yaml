@@ -31,7 +31,6 @@ params:
   showNewsletter: false
   minTagPostsToIndex: 2
   themeColor: "#FAFAF7"
-  defaultSocialImage: images/social-card.png
   socialLinks:
     - name: github
       url: https://github.com/alsdk4570
