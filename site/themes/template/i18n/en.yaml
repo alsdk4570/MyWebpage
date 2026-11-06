@@ -5,7 +5,7 @@
 - id: tags
   translation: 주제
 - id: about
-  translation: 소개
+  translation: About
 - id: search
   translation: 검색
 - id: openMenu
