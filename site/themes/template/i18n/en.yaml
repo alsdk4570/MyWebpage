@@ -15,7 +15,7 @@
 - id: primaryNavigation
   translation: Primary navigation
 - id: articleNavigation
-  translation: Article navigation
+  translation: 글 이동
 - id: skipToContent
   translation: Skip to content
 - id: latestArticles
@@ -32,7 +32,7 @@
   one: "{{ .Count }} 분 읽기"
   other: "{{ .Count }} 분 읽기"
 - id: articleFallback
-  translation: Article
+  translation: 글
 - id: site
   translation: 메뉴
 - id: follow
@@ -84,16 +84,16 @@
 - id: followRss
   translation: Follow via RSS
 - id: tableOfContents
-  translation: On this page
+  translation: 이 글의 목차
 - id: updated
-  translation: Updated
+  translation: 수정일
 - id: copyCode
-  translation: Copy
+  translation: 복사
 - id: copiedCode
-  translation: Copied
+  translation: 복사됨
 - id: previousArticle
-  translation: Previous
+  translation: 이전 글
 - id: nextArticle
-  translation: Next
+  translation: 다음 글
 - id: relatedArticles
-  translation: Related articles
+  translation: 관련 글
