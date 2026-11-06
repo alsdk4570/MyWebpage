@@ -22,7 +22,11 @@
       </div>
     </div>
     <div class="hero__right">
-      <div class="hero__portrait" aria-hidden="true"><span>{{ .Site.Params.authorInitials | default "SN" }}</span></div>
+      {{ with .Site.Params.authorImage }}
+<div class="hero__portrait"><img src="{{ . | relURL }}" alt="{{ $.Site.Params.author }} 프로필 사진" width="380" height="380"></div>
+{{ else }}
+<div class="hero__portrait" aria-hidden="true"><span>{{ .Site.Params.authorInitials | default "SN" }}</span></div>
+{{ end }}
       <div class="hero__caption">{{ .Site.Title }} · {{ .Site.Params.role }}</div>
     </div>
   </section>
