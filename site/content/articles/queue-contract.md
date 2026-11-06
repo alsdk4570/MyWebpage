@@ -1,34 +1,18 @@
 ---
-title: "The Queue Is Part of Your API Contract"
-date: 2026-08-10
-description: "Retries, deadlines, idempotency, and backpressure determine what an asynchronous API actually promises."
-tags: [Systems, Reliability]
+title: "수행 과정: 어떻게 만들었는지"
+date: 2026-11-03
+description: "사이트를 만드는 단계와 선택 이유를 설명합니다."
+tags: [Hugo, Github]
 ---
 
-Moving work behind a queue changes latency, ownership, and failure semantics. It does not make those concerns disappear.
+## 수행 과정
 
-## Acknowledgement is not completion
+1. Hugo 테마 사이트에서 마음에 드는 테마를 골라 다운로드합니다.
+2. Github Pages에서 설정을 하고, 나의 Github 저장소와 연결합니다.
+3. 설정 파일과 콘텐츠 파일을 나의 정보로 수정합니다.
+4. 수정할 때마다 commit하고 push해서 빌드와 배포 결과를 확인합니다.
+5. 공개 주소에서 화면과 링크가 정상인지 점검하고 수정합니다.
 
-An HTTP `202 Accepted` response says the server accepted responsibility for attempting the job. It should not imply that the job succeeded, or even that a worker has started it.
+## 선택 이유
 
-Clients need a durable job identifier and a status model they can understand:
-
-```json
-{
-  "job_id": "job_7f31",
-  "state": "queued",
-  "status_url": "/jobs/job_7f31"
-}
-```
-
-## Retries create duplicates
-
-A worker can finish the side effect and crash before acknowledging the message. The queue then delivers the same message again. That is ordinary at-least-once delivery, not an exotic edge case.
-
-Use an idempotency key, a unique database constraint, or a state transition that can be applied safely more than once. The invariant belongs where the side effect is committed.
-
-## Backpressure is a product decision
-
-An unbounded queue converts overload into delayed failure. Set limits, publish queue age, and decide what the system rejects when it cannot keep up. A clear `429` or `503` today is often kinder than silently completing a time-sensitive job tomorrow.
-
-The queue is part of the API because its semantics become the client's semantics. Document them with the endpoint.
+작은 단위로 commit하였습니다. 오류가 났을 때 어떤 게 원인인지 찾기 쉽고, 수정 과정이 기록으로 남기 때문입니다. 
