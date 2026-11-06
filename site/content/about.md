@@ -2,8 +2,6 @@
 title: About
 ---
 
-I am Example Author, a software engineer who writes about systems that have survived contact with production.
+## 맺음말
 
-Stacknote is designed for notes that combine practical experience with enough technical depth to remain useful after the week they were published. This example site demonstrates the theme's article typography, navigation, search, archives, taxonomies, responsive covers, and structured metadata.
-
-The name, role, biography, links, homepage sections, and article collection are all configured by the site rather than hard-coded into the theme.
+이 사이트를 찾아 주셔서 감사합니다. 추가로 다른 활동들로 꾸준히 이 포트폴리오를 계속 채워 나가겠습니다.
