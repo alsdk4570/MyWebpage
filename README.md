@@ -19,3 +19,9 @@
 | Python | 3.12 |
 
 Hugo는 반드시 extended 버전이어야 합니다. 설치는 [Hugo 공식 설치 안내](https://gohugo.io/installation/)를 따릅니다.
+
+
+## 사이트 빌드와 확인
+
+main 브랜치에 push하면 GitHub Actions가 위 도구를 설치하고 `python .github/pages_build.py --build`로 사이트를 빌드해 배포합니다. 결과는 저장소의 Actions 탭에서 확인합니다.
+
