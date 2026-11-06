@@ -1,37 +1,19 @@
 ---
-title: "Trace the Request Before You Tune the Service"
-date: 2026-08-17
-description: "A small observability habit that prevents teams from optimizing the wrong stage of a production request."
-tags: [Systems, Observability]
-cover:
-  image: images/request-path-cover.png
-  alt: "A request flowing through four measured stages of a production system"
+title: "활동 개요: 개인 포트폴리오 사이트 만들기"
+date: 2026-11-06
+description: "활동 시기와 진행 상태 및 목적, 역할을 정리합니다. "
+tags: [소개, 포트폴리오]
 ---
 
-A slow endpoint is rarely one indivisible wait. It is a chain: connection setup, queueing, application work, storage, and the trip back to the caller. The useful question is not simply “why is this request slow?” but “where did this request spend its time?”
+## 활동 시기와 진행 상태
 
-## Start with one trace
+- 활동 시기: 2026-10-13 00:00 ~ 2026-11-07 23:59
+- 진행 상태: 사이트는 Github Pages에 공개되어 있고, 내용과 설정은 계속 보완하고 있음.
 
-Pick one real slow request and write down its stages before changing a timeout or adding a cache.
+## 활동 목적
 
-```text
-gateway       18 ms
-queue        142 ms
-application   31 ms
-database      24 ms
-response       6 ms
-```
+초급 프로젝트 수업의 과제로, 나를 소개하는 개인 포트폴리오 사이트를 만들어 제시간 내에 제출하는 것이 목표입니다. 또한, 인공지능의 힘을 많이 빌리지 않고 혼자 해결하는 능력을 키우는 데 집중하는 게 목표입니다.
 
-The application function is not the bottleneck in this example. Making it twice as fast saves about 15 milliseconds while the request still waits 142 milliseconds before the function starts.
+## 본인 역할과 기여 범위
 
-## Measure boundaries you control
-
-Add spans around queues, pools, remote calls, and serialization. Record both elapsed time and the identifiers needed to connect a slow span to resource pressure: worker pool, shard, region, or dependency.
-
-The goal is not to produce the largest possible telemetry bill. It is to preserve enough boundaries that a future incident can distinguish waiting from working.
-
-## Optimize the stage, not the story
-
-Once the slow stage is known, choose the matching intervention. Queue delay may call for admission control or more workers. Database latency may call for an index or fewer round trips. Network setup may call for connection reuse.
-
-Without that decomposition, performance work becomes a collection of plausible stories. A trace turns the story into a location.
+개인 활동이기에, 테마 선택부터 설정, 활동 작성, 오류 해결까지 직접 수행하였습니다.
