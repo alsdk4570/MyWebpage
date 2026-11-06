@@ -14,7 +14,6 @@ outputs:
   home: [HTML, RSS, JSON]
 
 params:
-  author Image: images/profile.jpg
   author: 임민아
   authorInitials: IMA
   role: 대학생
